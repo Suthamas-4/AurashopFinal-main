@@ -55,9 +55,9 @@
     "price": "Price",
     "description": "Description",
     "category": "Category",
-    "condition": "Condition",
+    "condition": "gender",
     "createdAt": "Created At",
-    "location": "Location",
+    "location": "model",
     "createProduct": "Create Product",
     "uploadImage": "Upload Image",
     "imageLimit": "Can upload up to {{count}} images",
@@ -144,17 +144,17 @@
       "title": "Product Name",
       "price": "Price",
       "description": "Description",
-      "location": "Location",
+      "location": "Product model",
       "category": "Category",
-      "condition": "Condition"
+      "condition": "Products for"
     },
     "placeholders": {
       "title": "Product Name",
       "price": "Price",
       "description": "Description",
-      "location": "Location",
+      "location": "Model name",
       "category": "Category",
-      "condition": "Condition"
+      "condition": "Select Gender"
     },
     "validation": {
       "title": "Please enter product name",
@@ -164,8 +164,8 @@
       },
       "description": "Please enter product description",
       "category": "Please select product category",
-      "condition": "Please select product condition",
-      "location": "Please enter location",
+      "condition": "Please select gender",
+      "location": "Please enter model name",
       "image": "Please select at least 1 product image",
       "imageLimit": {
         "upload": "Can upload up to 5 images",
@@ -258,10 +258,10 @@
   },
   "landing": {
     "slogan": {
-      "line1": "Discover",
-      "line2": "Experience"
+      "line1": "Meet the most luxurious ",
+      "line2": "jewelry get it at us."
     },
-    "description": "Find new creativity every day: Start your limitless creative journey with Aura",
+    "description": "Find your lifestyle without limits with luxurious design jewelry that suits everyone of all ages.",
     "button": "Get Started"
   },
   "editProduct": {
@@ -271,12 +271,12 @@
     "pricePlaceholder": "Enter price",
     "descriptionLabel": "Description",
     "descriptionPlaceholder": "Enter product description",
-    "locationLabel": "Location",
-    "locationPlaceholder": "Enter location",
+    "locationLabel": "Product model",
+    "locationPlaceholder": "Enter model name",
     "categoryLabel": "Category",
     "selectCategory": "Select Category",
-    "conditionLabel": "Condition",
-    "selectCondition": "Select Condition",
+    "conditionLabel": "Products for",
+    "selectCondition": "Select gender",
     "existingImages": "Current Images",
     "newImages": "New Images",
     "addImages": "Add Images",

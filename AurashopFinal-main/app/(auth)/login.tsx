@@ -24,8 +24,8 @@ export default function login() {
 
   // กำหนดตัวแปร State สำหรับเก็บค่าของ Email และ Password
   const [form, setForm] = useState({
-    email: "hanaseed191@gmail.com",
-    password: "123456789",
+    email: "kamza.baabin@gmail.com",
+    password: "123456",
   });
 
   // กำหนดตัวแปรเก็บสถานะการ submit ข้อมูล
@@ -131,7 +131,7 @@ export default function login() {
               <Image
                 source={images.logo}
                 resizeMode="contain"
-                className="h-[34px]"
+                className="h-[150px] w-[300px]"
               />
             </View>
 

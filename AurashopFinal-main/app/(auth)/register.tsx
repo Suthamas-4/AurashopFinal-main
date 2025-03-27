@@ -121,7 +121,7 @@ export default function register() {
               <Image
                 source={images.logo}
                 resizeMode="contain"
-                className="h-[34px]"
+                className="h-[150px] w-[300px]"
               />
             </View>
 

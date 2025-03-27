@@ -51,13 +51,13 @@
     }
   },
   "product": {
-    "title": "ชื่อร้านค้า",
+    "title": "ชื่อสินค้า",
     "price": "ราคา",
     "description": "รายละเอียด",
     "category": "หมวดหมู่",
-    "condition": "สภาพสินค้า",
+    "condition": "สินค้าสำหรับ",
     "createdAt": "สร้างเมื่อ",
-    "location": "สถานที่",
+    "location": "รุ่นสินค้า",
     "createProduct": "สร้างสินค้า",
     "uploadImage": "อัพโหลดรูปภาพ",
     "imageLimit": "สามารถอัพโหลดได้สูงสุด {{count}} รูป",
@@ -106,7 +106,7 @@
       },
       "account": {
         "title": "บัญชี",
-        "location": "ตำแหน่ง",
+        "location": "ค่ากลาง",
         "security": "ความปลอดภัย"
       }
     }
@@ -115,7 +115,7 @@
     "management": "จัดการการตั้งค่า",
     "language": "ภาษา",
     "notifications": "การแจ้งเตือน",
-    "location": "ตำแหน่ง",
+    "location": "ค่ากลาง",
     "additional": "การดำเนินการเพิ่มเติม",
     "simpleCreate": "ใช้การสร้างรายการสินค้าที่เรียบง่าย",
     "followers": "ให้ผู้คนผู้ติดตามคุณ",
@@ -144,17 +144,17 @@
       "title": "ชื่อสินค้า",
       "price": "ราคา",
       "description": "รายละเอียด",
-      "location": "สถานที่",
+      "location": "รุ่นสินค้า",
       "category": "หมวดหมู่",
-      "condition": "สภาพสินค้า"
+      "condition": "สินค้าสำหรับ"
     },
     "placeholders": {
       "title": "ป้อนชื่อสินค้า",
       "price": "ป้อนราคา",
       "description": "ป้อนรายละเอียด",
-      "location": "ป้อนสถานที่",
+      "location": "ป้อนชื่อรุ่น",
       "category": "เลือกหมวดหมู่",
-      "condition": "เลือกสภาพสินค้า"
+      "condition": "กรุณาเลือกเพศ"
     },
     "validation": {
       "title": "กรุณากรอกชื่อสินค้า",
@@ -164,8 +164,8 @@
       },
       "description": "กรุณากรอกรายละเอียดสินค้า",
       "category": "กรุณาเลือกหมวดหมู่สินค้า",
-      "condition": "กรุณาเลือกสภาพสินค้า",
-      "location": "กรุณากรอสถานที่",
+      "condition": "กรุณาเลือกเพศ",
+      "location": "กรุณากรอชื่อรุ่น",
       "image": "กรุณาเลือกรูปภาพสินค้าอย่างน้อย 1 รูป",
       "imageLimit": {
         "upload": "สามารถอัพโหลดรูปภาพได้สูงสุด 5 รูป",
@@ -197,12 +197,8 @@
         "title": "เลือกหมวดหมู่"
       },
       "condition": {
-        "title": "เลือกสภาพสินค้า",
+        "title": "รุ่นสินค้า",
         "options": {
-          "new": "ใหม่",
-          "likeNew": "มือสอง - เหมือนใหม่",
-          "good": "มือสอง - สภาพดี",
-          "fair": "มือสอง - สภาพพอใช้"
         }
       }
     },
@@ -251,17 +247,17 @@
   },
   "tabs": {
     "home": "หน้าหลัก",
-    "bookmark": "สินค้าของฉัน",
+    "bookmark": "สินค้าของคุณ",
     "create": "ลงประกาศ",
     "profile": "โปรไฟล์",
     "settings": "ตั้งค่า"
   },
   "landing": {
     "slogan": {
-      "line1": "ค้นพบประสบการณ์",
-      "line2": "ไร้ขีดจำกัดที่"
+      "line1": "ยินดีต้อนรับ",
+      "line2": "สู่เว็บไซต์"
     },
-    "description": "ค้นหาความคิดสร้างสรรค์ใหม่ได้ทุกวัน: เริ่มต้นการเดินทางของความคิดสร้างสรรที่ไร้ขีดจำกัดกับ Aura",
+    "description": "แพลตฟอร์มซื้อ-ขายไอดีเกมที่ปลอดภัย เชื่อถือได้ บริการรวดเร็ว พร้อมรับประกันทุกการซื้อขาย",
     "button": "เริ่มใช้งาน"
   },
   "editProduct": {
@@ -271,12 +267,12 @@
     "pricePlaceholder": "ระบุราคา",
     "descriptionLabel": "รายละเอียด",
     "descriptionPlaceholder": "ระบุรายละเอียดสินค้า",
-    "locationLabel": "สถานที่",
-    "locationPlaceholder": "ระบุสถานที่",
+    "locationLabel": "รุ่นสินค้า",
+    "locationPlaceholder": "ระบุชื่อรุ่น",
     "categoryLabel": "หมวดหมู่",
     "selectCategory": "เลือกหมวดหมู่",
-    "conditionLabel": "สภาพสินค้า",
-    "selectCondition": "เลือกสภาพสินค้า",
+    "conditionLabel": "สินค้าสำหรับ",
+    "selectCondition": "กรุณาเลือกเพศ",
     "existingImages": "รูปภาพปัจจุบัน",
     "newImages": "รูปภาพใหม่",
     "addImages": "เพิ่มรูปภาพ",
@@ -296,4 +292,4 @@
       }
     }
   }
-} 
+}

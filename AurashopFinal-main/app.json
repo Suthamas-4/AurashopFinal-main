@@ -1,17 +1,17 @@
 {
   "expo": {
-    "name": "Aurashop",
-    "slug": "Aurashop",
+    "name": "PANDORA SHOP",
+    "slug": "PANDORA SHOP",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "https://miwservices.com/wp-content/uploads/2020/11/app-01.png",
+    "icon": "https://1000logos.net/wp-content/uploads/2021/11/Pandora-Logo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
-      "image": "https://miwservices.com/wp-content/uploads/2020/11/app-01.png",
+      "image": "https://1000logos.net/wp-content/uploads/2021/11/Pandora-Logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#161622"
+      "backgroundColor": "#ffffff"
     },
     "ios": {
       "bundleIdentifier": "com.itgenius.aurashop",
@@ -29,7 +29,10 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -49,6 +52,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "01eb2b8d-8ad5-4c5d-b67f-fe5872c5e19e"
+      }
+    },
+    "owner": "suthamas"
   }
 }

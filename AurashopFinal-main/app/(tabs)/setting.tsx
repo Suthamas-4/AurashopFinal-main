@@ -186,10 +186,6 @@ export default function Setting() {
                 text={t('settings.notifications')} 
               />
               <View style={{ height: 1, backgroundColor: theme === 'dark' ? '#4B5563' : '#D1D5DB' }} />
-              <SectionItem 
-                icon="map-marker" 
-                text={t('settings.location')} 
-              />
             </View>
           </Section>
 

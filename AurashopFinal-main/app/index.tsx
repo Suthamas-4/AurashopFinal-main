@@ -84,14 +84,14 @@ export default function Index() {
               {/* Logo */}
               <Image
                 source={images.logo}
-                className="h-[84px]"
+                className="h-[150px] w-[300px]"
                 resizeMode="contain"
               />
 
               {/* รูปภาพประกอบ */}
               <Image
                 source={images.cards}
-                className="max-w-[380px] w-full h-[298px]"
+                className="max-w-[380px] w-full h-[298px] rounded-lg"
                 resizeMode="contain"
               />
 
@@ -100,17 +100,12 @@ export default function Index() {
                 <Text weight="bold" className="text-3xl text-center dark:text-white leading-10">
                   {t('landing.slogan.line1')}{"\n"}
                   {t('landing.slogan.line2')}{" "}
-                  <Text weight="bold" className="text-secondary-200">AuraShop</Text>
+                  <Text weight="bold" className="text-secondary-200">PANDORA SHOP</Text>
                 </Text>
-                <Image
-                  source={images.path}
-                  className="w-[120px] h-[15px] absolute -bottom-4 -right-8"
-                  resizeMode="contain"
-                />
               </View>
 
               {/* คำอธิบาย */}
-              <Text weight="regular" className="text-md mt-7 text-center dark:text-white">
+              <Text weight="regular" className="text-md mt-5 text-center dark:text-white">
                 {t('landing.description')}
               </Text>
 
